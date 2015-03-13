@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/jsp.TestServlet") 
 //어노테이션 , xml에서 사용하는방식으로 안하고 요즘 이런방식으로 씀
 //어노테이션 이름이 웹페이지 이름이 되기때문에 서버주소뒤에 이 이름을 주소에 적어야 이 웹파일을 찾아 response를 한다.
-//어노테이션 이름을 수정하면 프로젝트 Run as -> Run on Server실행을 다시해주면 수정된 주소로 접속이 가능함
+//어노테이션 이름을 수정하면 프로젝트 Run as -> Run on Server실행을 다시해주면 수정된 주소로 접속이 가능함asdasd
 public class HelloServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
