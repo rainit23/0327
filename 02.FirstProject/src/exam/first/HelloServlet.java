@@ -13,6 +13,8 @@ import javax.servlet.http.HttpServletResponse;
  * Servlet implementation class HelloServlet
  */
 @WebServlet("/HelloServlet")// URL Mapping 이라고함 
+
+
 //어노테이션 , xml에서 사용하는방식으로 안하고 요즘 이런방식으로 씀
 //어노테이션 이름이 웹페이지 이름이 되기때문에 서버주소뒤에 이 이름을 주소에 적어야 이 웹파일을 찾아 response를 한다.
 //어노테이션 이름을 수정하면 프로젝트 Run as -> Run on Server실행을 다시해주면 수정된 주소로 접속이 가능함asdasd
@@ -57,7 +59,7 @@ public class HelloServlet extends HttpServlet {
 		out.print("이름 : "+n+"<br>");
 		out.print("ID : "+i+"<br>");
 		out.print("PWD : "+p+"<br>");
-		//out.print("</html>");
+		//out.print("</html>");//jsp문서를 html형식으로 쓰게하는 방법 1
 		
 	}
 

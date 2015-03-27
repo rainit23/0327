@@ -20,7 +20,7 @@
 <hr><%--수평선 --%>
 
 <h1>POST</h1>
-<form method="post" action="HelloServlet">
+<form method="post" action="HelloServlet"> <%-- HelloServlet의 URL Mapping과 일치--%>
 	이름 : <input type="text" name="name"><br>
 	아이디 : <input type="text" name="id"><br>
 	비밀번호 : <input type="password" name="pwd"><br>
